@@ -5,7 +5,6 @@ class BidirectNode:
         self.prev = prevNode
         self.next = nextNode
 
-
 class CircularDoublyLinkedList:
     def __init__(self):
         self.__head = BidirectNode("dummy", None, None)
